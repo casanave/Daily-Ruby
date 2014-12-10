@@ -32,3 +32,7 @@ v4= Volenteer.new("Steph","a bird-chirper")
 
 puts b1, b2, b3, b4
 puts v1, v2, v3, v4
+
+
+# Made with 7treasures.rb and page 10 in The Book of Ruby by No Starch Press.
+# Made to help me learn how to make classes, use ".new" and "initialize." 
