@@ -1,52 +1,52 @@
-book_store    =["The Cat In The Hat", "New Comics", "The Phantom Tollbooth", "How to Cook Everything", "Like Water for Chocolate"]
-grocery_store =["Organge Juice", "Milk", "Salt and Pepper", "Whole Wheat Bread", "Breakfast Cereal (without lots of added sugar)"]
-amazon_list   =["Fear and Loathing in Los Vegas", "Schindler's List", "A Few Good Men"] 
-take_out      =["Mexican", "Chinese", "Pizza", "Thai"]
-a             =["Using an Array for Great Good"]
+$book_store      =["The Cat In The Hat", "New Comics", "The Phantom Tollbooth", "How to Cook Everything", "Like Water for Chocolate"]
+$grocery_store   =["Organge Juice", "Milk", "Salt and Pepper", "Whole Wheat Bread", "Breakfast Cereal (without lots of added sugar)"]
+$amazon_list     =["Fear and Loathing in Los Vegas", "Schindler's List", "A Few Good Men"] 
+$take_out        =["Mexican", "Chinese", "Pizza", "Thai"]
+$a               =["Using an Array for Great Good"]
 
 def monday
-puts book_store[2]
-puts grocery_store[-1]
-puts a
+puts $book_store[2]
+puts $grocery_store[-1]
+puts $a
 end 
 
 def tuesday
-puts book_store[1]
-puts grocery_store[0..2]
-puts amazon_list[-1]
-a
+puts $book_store[1]
+puts $grocery_store[0..2]
+puts $amazon_list[-1]
+puts $a
 end
 
 def wednesday
-puts book_store[1]
-puts take_out [1]
-a
+puts $book_store[1]
+puts $take_out [1]
+puts $a
 end
 
 def thursday
-puts grocery_store
-puts book_store[-1]
-a
+puts $grocery_store
+puts $book_store[-1]
+puts $a
 end 
 
 def friday
-puts take_out [3]
-puts amazon_list [1]
-a
+puts $take_out [3]
+puts $amazon_list [1]
+puts $a
 end
 
 def saturday
-puts take_out [4]
-a
+puts $take_out [4]
+puts $a
 end
 
 def sunday
-puts take_out [2]
-a
+puts $take_out [2]
+puts $a
 end
 
 puts "what day is it?"
-day=gets.capitalize
+day=gets.chomp.capitalize
 
 if day=="Monday" 
 monday

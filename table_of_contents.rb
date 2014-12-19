@@ -1,4 +1,11 @@
 #this exersice is to play arround with hash-maps and arrays
+<<<<<<< HEAD
+=======
+#I wanted to use a hash-map for the books as they have no obvious order
+#I wanted to use an array for the chapter's of each book because they do have an obvious order
+#I wanted the output to list the book and then all of it's chapters
+#The next part of this project will work on the formatting of the output
+>>>>>>> 16264a51e8d2b21a605c00e3c7a864854a8dc2af
 
 books=Hash.new
 
